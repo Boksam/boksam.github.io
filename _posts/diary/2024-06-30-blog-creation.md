@@ -52,7 +52,7 @@ Refer to Quick Start Guide for minimal-mistakes, unnecessary files are like belo
 - screenshot.png
 
 # Execute in Local Environment
-### Dependency Settings
+### 1. Dependency Settings
 Before execute in local environment, change `Gemfile` like below to set **dependencies**.
 ```
 source "https://rubygems.org"
@@ -64,13 +64,13 @@ group :jekyll_plugins do
 end
 ```
 
-### Install Bundle
+### 2. Install Bundle
 ```
 bundle install
 ```
 ![Bundle Install](/assets/images/diary/2024-06-30-blog-creation/bundle-install.png)
 
-### Execute
+### 3. Execute
 ```
 bundle exec jekyll serve
 ```
