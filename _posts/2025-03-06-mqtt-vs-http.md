@@ -6,6 +6,7 @@ categories:
 tags:
   - mqtt
   - http
+image: /assets/2025-03-06-mqtt-vs-http/mqtt-http.webp
 ---
 
 ## 개요

@@ -5,6 +5,7 @@ categories:
   - backend
 tags:
   - nodejs
+image: /assets/2025-08-17-is-node-slow/nodejs.png
 ---
 
 ## Node.js는 정말 느릴까?
