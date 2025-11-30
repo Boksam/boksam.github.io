@@ -1,0 +1,52 @@
+@forward 'base';
+@forward 'components';
+@forward 'layout';
+@forward 'pages';
+
+@font-face {
+  font-family: 'Kakao';
+  src: url('/assets/fonts/KakaoSmallSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kakao';
+  src: url('/assets/fonts/KakaoSmallSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kakao';
+  src: url('/assets/fonts/KakaoSmallSans-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('/assets/fonts/PretendardVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-family-sans: 'Kakao', 'Pretendard', 'Microsoft Yahei', sans-serif !important;
+  --font-family-heading: 'Kakao', 'Pretendard', sans-serif !important;
+}
+
+$font-family-sans: 'Kakao', 'Pretendard', sans-serif;
+$font-family-heading: 'Kakao', 'Pretendard', sans-serif;
+
+body {
+  font-family: var(--font-family-sans);
+}
+
+html {
+  font-size: 15px !important;
+}
