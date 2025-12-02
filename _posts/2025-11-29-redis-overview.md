@@ -1,8 +1,7 @@
 ---
 title: "Redis를 사용하는 이유"
 date: 2025-11-29
-categories:
-  - infra
+categories: [Infrastructure, Redis]
 tags:
   - redis
 image: /assets/2025-11-29-redis-overview/redis.jpeg

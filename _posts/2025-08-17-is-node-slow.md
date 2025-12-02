@@ -1,8 +1,7 @@
 ---
 title: "Node.js는 정말 느릴까?"
 date: 2025-08-17
-categories:
-  - backend
+categories: [Backend, Node.js]
 tags:
   - nodejs
 image: /assets/2025-08-17-is-node-slow/nodejs.png

@@ -1,8 +1,7 @@
 ---
 title: "MQTT와 HTTP의 차이점"
 date: 2025-03-06
-categories:
-  - backend
+categories: [Computer Science, Networking]
 tags:
   - mqtt
   - http
