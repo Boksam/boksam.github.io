@@ -7,6 +7,9 @@ tags:
 image: /assets/2025-08-17-is-node-slow/nodejs.png
 ---
 
+> 이 글에서는 V8 엔진의 JIT 컴파일과 libuv의 이벤트 루프 동작 원리를 통해 Node.js 성능에 대한 오해를 바로잡고, Node.js의 비동기 처리 구조를 설명합니다.
+{: .prompt-info}
+
 ## Node.js는 정말 느릴까?
 
 2025년 GitHub 기준, 가장 인기 있는 백엔드 프레임워크 순위를 보면 흥미로운 점을 발견할 수 있습니다.
