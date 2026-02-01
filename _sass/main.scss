@@ -50,3 +50,8 @@ body {
 html {
   font-size: 15px !important;
 }
+
+/* 게시글 본문(content) 내의 이미지 모서리를 둥글게 설정 */
+.content img:not(.emoji) {
+  border-radius: 8px !important;
+}
