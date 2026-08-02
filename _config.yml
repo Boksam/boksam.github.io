@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Boksam # the main title
 
-tagline: Deep Dive, Not Just Float. # it will display as the subtitle
+tagline: Datadog Technical Support Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   복삼이의 개발 기록입니다. 주로 인프라/백엔드/데이터 엔지니어링 관련 내용을 다룹니다.
