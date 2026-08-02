@@ -5,7 +5,7 @@ categories: [Open Source, Python]
 tags:
   - Datadog
   - dd-trace-py
-image: "/assets/2026-01-11-datadog-agent-on-host/datadog-logo.png"
+image: "/assets/datadog-logo.png"
 ---
 
 > 이 글에서는 Datadog의 오픈소스인 [dd-trace-py](https://github.com/DataDog/dd-trace-py)에 LLMOps 관련 버그를 수정하는 과정에 대해 다룹니다.

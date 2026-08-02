@@ -7,7 +7,7 @@ tags:
   - Observability
   - Monitoring
   - DevOps
-image: "/assets/2026-01-11-datadog-agent-on-host/datadog-logo.png"
+image: "/assets/datadog-logo.png"
 ---
 
 > 이 포스트는 Datadog Learning Center의 'The Agent on a Host' 코스를 실습하며 정리한 내용입니다.
