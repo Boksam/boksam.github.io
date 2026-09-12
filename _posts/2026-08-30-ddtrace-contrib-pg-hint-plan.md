@@ -228,7 +228,7 @@ pg-hint-plan은 두 번째 주석에서 `/*+`를 찾을 수는 있습니다.
 그리고 `pg_hint_plan.hints_anywhere` 옵션에 대해서 알게 되었습니다.
 
 `pg_hint_plan.hints_anywhere` 은 사실 이 글에서 이미 등장한 적이 있습니다.
-["5. DBM Comment와 pg-hint-plan Hint 충돌 원인 분석"](#5-dbm-comment와-pg-hint-plan-hint-충돌-원인-분석) 에서 `pg_hint_plan_hints_anywhere` Boolean 변수가 이 옵션값입니다.
+["5. DBM Comment와 pg-hint-plan Hint 충돌 원인 분석"](#5-dbm-comment와-pg-hint-plan-hint-충돌-원인)에서 `pg_hint_plan_hints_anywhere` Boolean 변수가 이 옵션값입니다.
 이 옵션이 활성화되면, Hint 앞에 어떤 문자가 있던 말던 오직 `/*+` 문자열이 있는지만 확인합니다.
 테스트 결과, Hint Comment 앞에 DBM Comment가 있어도 정상적으로 Hint가 적용되는 것을 확인했습니다.
 
