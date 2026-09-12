@@ -149,7 +149,7 @@ _k3s.code-place-dev.site 접속 결과_
 
 ---
 
-## References
+**References**
 
 - [K3s Networking Services](https://docs.k3s.io/networking/networking-services)
 - [Kubernetes Load-Balancer service](https://kube-vip.io/docs/usage/kubernetes-services/)

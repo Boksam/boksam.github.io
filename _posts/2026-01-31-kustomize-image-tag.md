@@ -14,7 +14,6 @@ image: "/assets/2026-01-31-kustomize-image-tag/kustomize-logo.png"
 {: .prompt-info}
 
 ## 1. 개요
----
 
 코드플레이스 서비스를 Kubernetes 환경으로 마이그레이션한 후, 첫 배포 테스트를 진행하던 중 예상치 못한 문제를 마주했습니다.
 CI/CD 파이프라인이 성공적으로 돌고 kubectl apply까지 실행되었음에도 불구하고, 실제 파드(Pod)에는 변경된 코드가 반영되지 않는 현상이었습니다.
@@ -38,7 +37,6 @@ Kubernetes의 Deployment는 리소스의 spec이 변경되어야만 롤아웃을
 이를 Kustomize 설정에 자동으로 반영하여 확실하게 새로운 이미지를 사용할 수 있도록 함과 동시에 추적 가능한 태그 관리가 가능해지도록 만들고 싶었습니다.
 
 ## 2. Kustomize 구조 리팩토링
----
 
 ### 2-1. 기존 Kustomize 설정 구조
 
@@ -120,7 +118,6 @@ images:
 이러한 구조 변경 덕분에 CI 파이프라인은 여러 Deployment 파일을 찾아다닐 필요 없이, 오직 kustomization.yaml 파일 하나만 수정하면 되므로 관리가 훨씬 수월해졌습니다.
 
 ## 3. GitHub Actions 워크플로우 구현
----
 
 구현할 전체 파이프라인의 흐름은 다음과 같습니다.
 
@@ -221,7 +218,6 @@ update-dev-manifest:
 ```
 
 ## 4. 마무리
----
 
 이렇게 구축한 파이프라인 덕분에 이제 개발 브랜치에 코드를 푸시하기만 하면, 자동으로 이미지가 빌드되고 Kubernetes Manifest까지 업데이트됩니다.
 더 이상 배포할 때마다 수동으로 태그를 수정할 필요가 없어졌고, kubectl apply를 실행하면 즉시 새로운 버전의 파드가 생성되는 것을 확인할 수 있습니다.
@@ -236,8 +232,9 @@ _자동으로 커밋된 kustomization.yaml 변경 사항_
 사실 이 Manifest를 수정하고 커밋하는 방법을 결정한 또 다른 이유는 이후 ArgoCD와 같은 GitOps 도구를 도입할 계획이 있기 때문인데요,
 이 부분에 대해서는 저도 더 공부해보고 다음 기회에 기록해보겠습니다.
 
-## 참고 자료
 ---
+
+**참고 자료**
 
 - [Kustomize 공식 문서 - Images](https://github.com/openshift/kubernetes-kubectl/blob/master/docs/book/pages/reference/kustomize.md#images)
 - [GitHub Actions - dorny/paths-filter](https://github.com/dorny/paths-filter)

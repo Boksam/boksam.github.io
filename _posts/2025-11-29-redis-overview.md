@@ -324,7 +324,9 @@ Redis Cluster는 **해시 슬롯(Hash Slot)** 방식을 사용하여 데이터�
 
 앞으로 마주할 프로젝트에서 Redis를 사용하게 된다면, 이번 글에서 다룬 내용들을 바탕으로 더 깊이 이해하고, 상황에 맞게 올바르게 활용할 수 있도록 노력하겠습니다.
 
-## References
+---
+
+**References**
 
 - [Why the heck Single-Threaded Redis is Lightning fast? Beyond In-Memory Database Label](https://www.linkedin.com/pulse/why-heck-single-threaded-redis-lightning-fast-beyond-in-memory-kapur/)
 - [Redis Copy-on-Write 분석](https://redisgate.kr/redis/configuration/copy-on-write.php)
