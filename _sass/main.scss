@@ -36,7 +36,8 @@
 }
 
 :root {
-  --font-family-sans: 'Kakao', 'Pretendard', 'Microsoft Yahei', sans-serif !important;
+  --font-family-sans:
+    'Kakao', 'Pretendard', 'Microsoft Yahei', sans-serif !important;
   --font-family-heading: 'Kakao', 'Pretendard', sans-serif !important;
 }
 
@@ -54,4 +55,11 @@ html {
 /* 게시글 본문(content) 내의 이미지 모서리를 둥글게 설정 */
 .content img:not(.emoji) {
   border-radius: 8px !important;
+}
+
+/* 게시글 본문만 700px로 고정*/
+main > article[data-toc] {
+  width: 100%;
+  max-width: 700px;
+  margin-inline: auto;
 }
